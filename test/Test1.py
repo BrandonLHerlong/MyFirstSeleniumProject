@@ -2,8 +2,8 @@ from selenium import webdriver
 import time
 
 driver = webdriver.Chrome(r"C:\Users\blher\MyProjects\FirstSeleniumTest\drivers\chromedriver.exe")
-driver = webdriver.Firefox()
-driver = webdriver.Ie()
+# driver = webdriver.Firefox()
+# driver = webdriver.Ie()
 
 driver.set_page_load_timeout(10)
 driver.get("http://google.com")
